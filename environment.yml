@@ -1,0 +1,22 @@
+name: mmdetection
+channels:
+  - conda-forge
+  - anaconda
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - pandas
+  - pytorch
+  - matplotlib
+  - torchvision
+  - scikit-learn
+  - pip
+  - pip:
+    - open3d
+    - Pillow
+    - trimesh
+    - scikit-image
+    - opencv-python
